@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8E060252866D34D00B55CE6 /* Kalkulator 2.0 in Resources */ = {isa = PBXBuildFile; fileRef = E8E060242866D34D00B55CE6 /* Kalkulator 2.0 */; };
 		E8F80C24281FF42600302EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F80C23281FF42600302EE7 /* AppDelegate.swift */; };
 		E8F80C26281FF42600302EE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F80C25281FF42600302EE7 /* SceneDelegate.swift */; };
 		E8F80C28281FF42600302EE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F80C27281FF42600302EE7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8E060242866D34D00B55CE6 /* Kalkulator 2.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Kalkulator 2.0"; sourceTree = "<group>"; };
 		E8F80C20281FF42600302EE7 /* Kalkulator 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kalkulator 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F80C23281FF42600302EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F80C25281FF42600302EE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				E8F80C23281FF42600302EE7 /* AppDelegate.swift */,
+				E8E060242866D34D00B55CE6 /* Kalkulator 2.0 */,
 				E8F80C25281FF42600302EE7 /* SceneDelegate.swift */,
 				E8F80C27281FF42600302EE7 /* ViewController.swift */,
 				E8F80C29281FF42600302EE7 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E060252866D34D00B55CE6 /* Kalkulator 2.0 in Resources */,
 				E8F80C30281FF42700302EE7 /* LaunchScreen.storyboard in Resources */,
 				E8F80C2D281FF42700302EE7 /* Assets.xcassets in Resources */,
 				E8F80C2B281FF42600302EE7 /* Main.storyboard in Resources */,
@@ -294,13 +298,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "vladislav-rudnev.Kalkulator-2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -321,13 +326,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "vladislav-rudnev.Kalkulator-2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
